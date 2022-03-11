@@ -96,9 +96,10 @@ const calcFinalPrice = (cartTotal, couponValue, tax) => cartTotal * (1 + tax) - 
 
 //CODE HERE
 const customer = {
-    name: `Chad`
-    deliveryAddress: `123 s maple st`
-    billingAddress: `456 N Oak`
-    itemsInCart: [{item: `pizza`, price: 13.50, notes: `Extra pepperoni`}]
-    phoneNumber: 5035551234
+    name: `Chad`,
+    deliveryAddress: `123 s maple st`,
+    billingAddress: `456 N Oak`,
+    itemsInCart: [{item: `pizza`, price: 13.50, notes: `Extra pepperoni`}],
+    phoneNumber: 5035551234,
 }
+console.log(customer)
