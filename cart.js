@@ -35,7 +35,8 @@ const cart = [
 
 //CODE HERE
 
-// const summedPrice = cart.reduce(/* CALLBACK HERE */)
+const summedPrice = cart.reduce((acc, curr) => acc + curr.price, 0)
+console.log(summedPrice)
 
 
 //////////////////PROBLEM 2////////////////////
@@ -54,7 +55,9 @@ const cart = [
 */
 
 //CODE HERE
+const calcFinalPrice = (cartTotal, couponValue, tax) => cartTotal * (1 + tax) - couponValue
 
+// console.log(calcFinalPrice(125, 21, .08))
 
 
 //////////////////PROBLEM 3////////////////////
@@ -79,6 +82,10 @@ const cart = [
 
 /*
     TEXT ANSWER HERE
+    We'll need the following info for our customer - Name, delivery address as this may be different than billing, billing address, items in cart to be able to submit the order and tally up their total, and phone number to reach them if we need. 
+    Name, delivery and mailing addressess will all be strings as they won't be limitted to numbers,
+    Items in cart would be an array listing out items. This would be an array of objects including item (string), price (number), notes (string).
+    Phone number would be a number 
 
 */
 
@@ -88,3 +95,10 @@ const cart = [
 */
 
 //CODE HERE
+const customer = {
+    name: `Chad`
+    deliveryAddress: `123 s maple st`
+    billingAddress: `456 N Oak`
+    itemsInCart: [{item: `pizza`, price: 13.50, notes: `Extra pepperoni`}]
+    phoneNumber: 5035551234
+}
