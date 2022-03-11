@@ -1,0 +1,11 @@
+Company #1: Discord
+
+React & Python seem to be the primary language for discord with Python taking care of the back end. They have openings for app developers as well for iOS and Android which would pull in additional languages like Swift.
+
+Company #2: Spotify 
+
+Java, Python, and C++ are notable languages that Spotify is built on. HTML, CSS and javascript build up the web interface while C++ and Python were used for the backend and C++ and Objective-C were primarily used for desktop apps for PC and Mac.
+
+Software #3: OBS 
+
+Open Broadcast Studio is built off C, C++, and Objective C (for apple). Scripts/modules for OBS can be written LUA and Python Scripts.
